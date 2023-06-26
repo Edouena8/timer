@@ -7,10 +7,32 @@
     <link rel="stylesheet" href="css/common.css" />
   </head>
   <body>
-    <ul>
-      <li><a href="01-color-switcher.html">Color switcher</a></li>
-      <li><a href="02-timer.html">Countdown timer</a></li>
-      <li><a href="03-promises.html">Promise generator</a></li>
-    </ul>
+    <div class="calendar">
+      <div class="date-style">
+        Day of the week:
+        <div class="date-day"> 0</div>
+      </div>
+      <div class="date-style">
+        День місяця:
+        <div class="date"> 0</div>
+      </div>
+      <div class="date-style">
+        Місяць:
+        <div class="date-month"> 0</div>
+      </div>
+      <div class="date-style">
+        Рік:
+        <div class="date-year"> 0</div>
+      </div>
+    </div>
+    <div class="digital-clock">0</div>
+    <div class="clock">
+      <div class="clock-arrow clock-seconds__arrow"></div>
+      <div class="clock-arrow clock-minutes__arrow"></div>
+      <div class="clock-arrow clock-hours__arrow"></div>
+      <div class="clock-center"></div>
+    </div>
+
+    <script src="./js/timer.js" type="module"></script>
   </body>
 </html>
